@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  padding: 0 10px;
+  min-height: 94vh;
+  align-items: center;
+  justify-content: center;
+  color: #6a0572;
+  background-color: #f3f4f6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  height: 300px;
+  max-width: 450px;
+  background: #f3f4f6;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.container.active {
+  height: 100%;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff80ab;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header p {
+  color: #6a0572;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.form_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.form input {
+  margin-top: 25px;
+  width: calc(100% - 20px);
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 0 20px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  background-color: #f3f4f6;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.form input::-moz-placeholder {
+  color: #999;
+}
+
+.form input::placeholder {
+  color: #999;
+}
+
+.form input:focus {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form button {
+  width: calc(100% - 20px);
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f3f4f6;
+  margin-top: 20px;
+  background-color: #ff80ab;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form button:hover {
+  background-color: #6a0572;
+}
+
+.form button:active {
+  transform: scale(0.95);
+}
+
+.qr-code {
+  opacity: 0;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #6a0572;
+  margin-top: 20px;
+  transition: opacity 0.5s ease;
+}
+
+.container.active .qr-code {
+  opacity: 1;
+}
+
+.qr-code img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */

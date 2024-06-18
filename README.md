@@ -11,10 +11,10 @@ Este proyecto consiste en una web simple que permite a los usuarios generar cód
 - Generación de código QR a partir de texto y URL.
 - Descarga del código QR generado como imagen PNG.
 
-## Cómo acceder
+## Instalación
 
-1. Ingrese al siguiente sitio: `https://valeen-rodriguez.github.io/proyecto-generador-codigo-QR/`.
-2. ¡Listo!, asi de fácil se puede ingresar al generador de codigo QR.
+1. Clona este repositorio en tu máquina local.
+2. Abre el archivo `index.html` en tu navegador web.
 
 ## Uso
 
